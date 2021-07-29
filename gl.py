@@ -1,4 +1,4 @@
-#SR1: Point
+#SR3: Model
 #Oscar Paredez 19109
 
 import struct
