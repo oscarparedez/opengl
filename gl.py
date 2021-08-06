@@ -143,8 +143,8 @@ class Renderer(object):
                     if self.framebuffer[y][x] == self.vertex_color:
                         # print(y)
                         insideX.append(x)
-                for num in range(insideX[0], insideX[-1]):
-                    self.framebuffer[y][num] = self.vertex_color
+                for posX in range(insideX[0], insideX[-1]):
+                    self.framebuffer[y][posX] = self.vertex_color
                 insideX = []
             insideX = []
 
